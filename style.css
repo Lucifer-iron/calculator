@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.calcContainer {
+    border: 8px solid rgb(51, 49, 49);
+    width: 20rem;
+
+
+}
+
+.outputDisplay {
+    border: 4px solid grey;
+    width: 100%;
+    height: 5rem;
+
+}
+
+
+.btnsContainer {
+    background-color: rgb(39, 33, 33);
+    flex-direction: column;
+}
+
+.btnRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.calcBtns {
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(38, 85, 65);
+    margin: 0.1rem 0 0.5rem 0;
+    align-content: center;
+    text-align: center;
+}
+
+.zeroBtn {
+  width:48%;
+}
